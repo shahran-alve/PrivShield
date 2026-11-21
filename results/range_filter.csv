@@ -1,0 +1,3 @@
+queries,attackable_targets,rank_auditor_prevented
+equality only,85,85
+equality + one range filter,571,571

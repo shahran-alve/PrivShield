@@ -1,0 +1,4 @@
+dataset,k,grid,queries,protected_cells,target_cells,targets_computable_no_auditor,refused_fwd,protected_computable_fwd,primes_agree_fwd,ms_per_query_fwd,refused_rev,protected_computable_rev,primes_agree_rev,ms_per_query_rev
+Hospital,5,8100,6436,1341,603,28,156,0,True,0.823,255,0,True,0.174
+NHANES,5,1260,2440,405,110,71,146,0,True,0.196,533,0,True,0.046
+Adult,5,2520,3384,496,320,90,288,0,True,0.23,455,0,True,0.068

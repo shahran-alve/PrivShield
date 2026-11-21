@@ -1,0 +1,10 @@
+dataset,k,at_risk,bypass,disclosed,auditor_prevented
+NHANES,5,190,60,44,60
+NHANES,10,776,85,29,85
+NHANES,20,2118,48,5,48
+Hospital,5,937,5,5,5
+Hospital,10,2337,3,3,3
+Hospital,20,4615,3,3,3
+Adult,5,572,4,4,4
+Adult,10,1247,0,0,0
+Adult,20,2608,0,0,0

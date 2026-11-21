@@ -1,0 +1,76 @@
+{
+  "role_purposes": {
+    "Admin": ["compliance", "operations", "quality_improvement", "research", "training"],
+    "Researcher": ["research"],
+    "Manager": ["operations", "quality_improvement"],
+    "Analyst": ["operations", "quality_improvement"],
+    "Intern": ["training"]
+  },
+  "role_rules": {
+    "Admin": {
+      "max_sensitivity": 4,
+      "max_filters": 4,
+      "allowed_aggregates": ["COUNT", "MEAN", "MIN", "MAX"],
+      "forbidden_fields": [],
+      "restricted_provisional": true,
+      "scope": "all"
+    },
+    "Researcher": {
+      "max_sensitivity": 4,
+      "max_filters": 4,
+      "allowed_aggregates": ["COUNT", "MEAN", "MIN", "MAX"],
+      "forbidden_fields": [],
+      "restricted_provisional": true,
+      "scope": "all"
+    },
+    "Manager": {
+      "max_sensitivity": 3,
+      "max_filters": 4,
+      "allowed_aggregates": ["COUNT", "MEAN", "MIN", "MAX"],
+      "forbidden_fields": ["readmitted"],
+      "restricted_provisional": false,
+      "scope": "own_department",
+      "department_field": "service_department",
+      "broad_query_forbidden_fields": [
+        "age_band", "race", "gender", "diagnosis_group",
+        "A1Cresult", "max_glu_serum", "insulin", "diabetesMed", "readmitted"
+      ]
+    },
+    "Analyst": {
+      "max_sensitivity": 2,
+      "max_filters": 4,
+      "allowed_aggregates": ["COUNT", "MEAN", "MIN", "MAX"],
+      "forbidden_fields": [
+        "age_band", "race", "gender", "diagnosis_group",
+        "A1Cresult", "max_glu_serum", "insulin", "diabetesMed", "readmitted"
+      ],
+      "restricted_provisional": false,
+      "scope": "operational"
+    },
+    "Intern": {
+      "max_sensitivity": 1,
+      "max_filters": 1,
+      "allowed_aggregates": ["COUNT"],
+      "allowed_fields": ["admission_type"],
+      "forbidden_fields": [
+        "service_department", "time_in_hospital", "num_lab_procedures",
+        "num_procedures", "num_medications", "prior_utilization",
+        "number_diagnoses", "age_band", "race", "gender", "diagnosis_group",
+        "A1Cresult", "max_glu_serum", "insulin", "diabetesMed", "readmitted"
+      ],
+      "restricted_provisional": false,
+      "scope": "public_only"
+    }
+  },
+  "policy_ids": {
+    "ABAC-001": "INVALID_PURPOSE",
+    "ABAC-002": "CLEARANCE_TOO_LOW",
+    "ABAC-003": "INTERN_PUBLIC_COUNT_ONLY",
+    "ABAC-004": "ANALYST_SENSITIVE_FIELD_DENIED",
+    "ABAC-005": "MANAGER_DEPARTMENT_SCOPE",
+    "ABAC-006": "MANAGER_RESTRICTED_FIELD_DENIED",
+    "ABAC-007": "RESEARCHER_AGGREGATE_PROVISIONAL_ALLOW",
+    "ABAC-008": "ADMIN_PROVISIONAL_ALLOW",
+    "ABAC-009": "ROLE_RULE_ALLOW"
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "sessions": 400,
+ "no_refusal": 353,
+ "no_refusal_drill": 175,
+ "no_refusal_roll": 178,
+ "legit_queries": 914,
+ "refused_legit": 47,
+ "exact": 0,
+ "noised": 867,
+ "masked": 0
+}

@@ -1,0 +1,4 @@
+dataset,k,at_risk,kclean_attack,disclosed
+Hospital,10,2337,3,3
+Adult,10,1247,0,0
+NHANES,10,776,85,29

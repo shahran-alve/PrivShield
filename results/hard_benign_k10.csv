@@ -1,0 +1,4 @@
+dataset,sessions,legit_queries,rank_fp_queries,rank_fp_rate,sym_fp_queries,sym_fp_rate,sess_rank_blocked,sess_sym_blocked
+Hospital,150,2552,9,0.0035,2258,0.8848,9,150
+NHANES,150,3199,5,0.0016,2944,0.9203,5,150
+Adult,150,2348,82,0.0349,2038,0.868,82,150

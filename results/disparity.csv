@@ -1,0 +1,28 @@
+dataset,attribute,value,share,questions,refused,refused_rate
+Adult,race,Amer-Indian-Eskimo,0.0094,12,9,0.75
+Adult,race,Asian-Pac-Islander,0.0309,12,6,0.5
+Adult,race,Black,0.0946,12,5,0.417
+Adult,race,Other,0.0081,12,10,0.833
+Adult,race,White,0.8569,12,4,0.333
+Adult,age_band,"[10, 20)",0.045,12,3,0.25
+Adult,age_band,"[20, 30)",0.2427,12,3,0.25
+Adult,age_band,"[30, 40)",0.2741,12,3,0.25
+Adult,age_band,"[40, 50)",0.2281,12,4,0.333
+Adult,age_band,"[50, 60)",0.1383,12,4,0.333
+Adult,age_band,"[60, 70)",0.0557,12,4,0.333
+Adult,age_band,"[70, 80)",0.0129,12,11,0.917
+Adult,age_band,"[80, 90)",0.0022,12,12,1.0
+Adult,age_band,"[90, 100)",0.001,12,12,1.0
+NHANES,race,Asian,0.1215,10,8,0.8
+NHANES,race,Black,0.2665,10,6,0.6
+NHANES,race,MexicanAmerican,0.1143,10,10,1.0
+NHANES,race,OtherHispanic,0.1013,10,10,1.0
+NHANES,race,OtherMulti,0.0475,10,9,0.9
+NHANES,race,White,0.349,10,5,0.5
+NHANES,age_band,"[20, 30)",0.1492,10,7,0.7
+NHANES,age_band,"[30, 40)",0.1542,10,9,0.9
+NHANES,age_band,"[40, 50)",0.1567,10,10,1.0
+NHANES,age_band,"[50, 60)",0.1698,10,7,0.7
+NHANES,age_band,"[60, 70)",0.1891,10,7,0.7
+NHANES,age_band,"[70, 80)",0.1077,10,10,1.0
+NHANES,age_band,"[80, 90)",0.0733,10,10,1.0

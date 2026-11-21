@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "user_id": "admin_01",
+      "display_name": "System Administrator",
+      "role": "Admin",
+      "department": "Compliance",
+      "clearance_level": 5,
+      "purpose": "compliance"
+    },
+    {
+      "user_id": "researcher_01",
+      "display_name": "Clinical Researcher",
+      "role": "Researcher",
+      "department": "Clinical Research",
+      "clearance_level": 4,
+      "purpose": "research"
+    },
+    {
+      "user_id": "manager_cardiology",
+      "display_name": "Cardiology Manager",
+      "role": "Manager",
+      "department": "Cardiology",
+      "clearance_level": 3,
+      "purpose": "quality_improvement"
+    },
+    {
+      "user_id": "analyst_01",
+      "display_name": "Operations Analyst",
+      "role": "Analyst",
+      "department": "Operations",
+      "clearance_level": 2,
+      "purpose": "operations"
+    },
+    {
+      "user_id": "intern_01",
+      "display_name": "Training Intern",
+      "role": "Intern",
+      "department": "Training",
+      "clearance_level": 1,
+      "purpose": "training"
+    }
+  ]
+}

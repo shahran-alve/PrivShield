@@ -1,0 +1,129 @@
+{
+  "sensitivity_levels": {
+    "Public": 1,
+    "Internal": 2,
+    "Confidential": 3,
+    "Restricted": 4
+  },
+  "fields": {
+    "admission_type": {
+      "type": "categorical",
+      "sensitivity": "Public",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Admission Type",
+      "notes": "All roles subject to role rules."
+    },
+    "service_department": {
+      "type": "categorical",
+      "sensitivity": "Internal",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Service Department",
+      "notes": "Manager scope field."
+    },
+    "time_in_hospital": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Time in Hospital (days)",
+      "notes": "Numeric target."
+    },
+    "num_lab_procedures": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Lab Procedures",
+      "notes": "Numeric target."
+    },
+    "num_procedures": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Procedures",
+      "notes": "Numeric target."
+    },
+    "num_medications": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Medications",
+      "notes": "Numeric target."
+    },
+    "prior_utilization": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Prior Utilization",
+      "notes": "Numeric target."
+    },
+    "number_diagnoses": {
+      "type": "numeric",
+      "sensitivity": "Internal",
+      "allowed_use": ["mean", "min", "max"],
+      "display_name": "Number of Diagnoses",
+      "notes": "Numeric target."
+    },
+    "age_band": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Age Band",
+      "notes": "Quasi-identifier."
+    },
+    "race": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Race",
+      "notes": "Quasi-identifier."
+    },
+    "gender": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Gender",
+      "notes": "Quasi-identifier."
+    },
+    "diagnosis_group": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Diagnosis Group",
+      "notes": "Sensitive clinical category."
+    },
+    "A1Cresult": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "A1C Result",
+      "notes": "Sensitive clinical category."
+    },
+    "max_glu_serum": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Max Glucose Serum",
+      "notes": "Sensitive clinical category."
+    },
+    "insulin": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Insulin",
+      "notes": "Sensitive treatment category."
+    },
+    "diabetesMed": {
+      "type": "categorical",
+      "sensitivity": "Confidential",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Diabetes Medication",
+      "notes": "Sensitive treatment category."
+    },
+    "readmitted": {
+      "type": "categorical",
+      "sensitivity": "Restricted",
+      "allowed_use": ["filter", "group"],
+      "display_name": "Readmission Status",
+      "notes": "Primary sensitive outcome."
+    }
+  }
+}

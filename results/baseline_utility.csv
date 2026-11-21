@@ -1,0 +1,3 @@
+dataset,benign_cells,laplace_scale1_within1,laplace_scale1_mae,laplace_scale2_within1,laplace_scale2_mae,laplace_scale4_within1,laplace_scale4_mae,round5_exact,round5_mae
+NHANES,245,0.665,0.97,0.42,2.15,0.192,4.08,0.233,1.09
+Hospital,544,0.638,1.04,0.417,1.93,0.252,3.93,0.211,1.16

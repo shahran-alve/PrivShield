@@ -1,0 +1,7 @@
+dataset,mode,grid,n_query_vecs,at_risk,bypasses,disclosed
+Hospital,local,8100,2407,937,5,5
+Hospital,cross,8100,6436,937,49,19
+NHANES,local,1260,980,190,60,44
+NHANES,cross,1260,2440,190,142,100
+Adult,local,2520,1172,572,4,4
+Adult,cross,2520,3384,572,198,167

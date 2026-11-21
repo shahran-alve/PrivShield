@@ -1,0 +1,2008 @@
+[
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[30, 40)",
+   "race": "OtherHispanic",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "9-11th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 7,
+  "reconstructed_count": 7,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 69,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "<9th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 16,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 14,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 14,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 18,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[40, 50)",
+   "race": "MexicanAmerican",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "CollegeGrad",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 7,
+  "reconstructed_count": 7,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 98,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "<9th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 22,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "OtherHispanic",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "9-11th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 8,
+  "reconstructed_count": 8,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 73,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "<9th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 21,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 12,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 17,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 15,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[30, 40)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 214,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 11,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 83,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 31,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 86,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[30, 40)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 203,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 25,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 43,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 46,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 86,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[20, 30)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 200,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 12,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 34,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 57,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 95,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "White",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 5,
+  "reconstructed_count": 5,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 186,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 15,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 51,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 60,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 55,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[50, 60)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 215,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 11,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 53,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 51,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 98,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "Black",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 6,
+  "reconstructed_count": 6,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "total"
+    },
+    "returns": 310,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Borderline"
+    },
+    "returns": 29,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Diabetes"
+    },
+    "returns": 72,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "partition_total",
+     "partition": "SomeCollege"
+    },
+    "returns": 106,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 40,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 37,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 63,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "Borderline"
+    },
+    "returns": 10,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "Diabetes"
+    },
+    "returns": 33,
+    "coefficient": "1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[20, 30)",
+   "race": "Black",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 168,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 24,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 15,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 65,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 63,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[50, 60)",
+   "race": "White",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 5,
+  "reconstructed_count": 5,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "total"
+    },
+    "returns": 233,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Borderline"
+    },
+    "returns": 10,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Diabetes"
+    },
+    "returns": 39,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 17,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 49,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 44,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 69,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[40, 50)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 163,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 14,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 38,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 30,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 78,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "Diabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Diabetes"
+    },
+    "returns": 83,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "Diabetes"
+    },
+    "returns": 19,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "Diabetes"
+    },
+    "returns": 13,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "Diabetes"
+    },
+    "returns": 24,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "Diabetes"
+    },
+    "returns": 24,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[50, 60)",
+   "race": "Black",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 158,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 64,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 46,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[70, 80)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 5,
+  "reconstructed_count": 5,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 72,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 13,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 10,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 22,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 22,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[20, 30)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 203,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 13,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 59,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 47,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 81,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[40, 50)",
+   "race": "White",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 192,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 20,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 57,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 45,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 68,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[70, 80)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 181,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 19,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 44,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 49,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 68,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 5,
+  "reconstructed_count": 5,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 197,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 21,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 57,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 52,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 62,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[20, 30)",
+   "race": "White",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 177,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 12,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 32,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 63,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 69,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[60, 70)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "total"
+    },
+    "returns": 247,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Borderline"
+    },
+    "returns": 10,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "Diabetes"
+    },
+    "returns": 37,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 12,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 64,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 50,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 71,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[40, 50)",
+   "race": "Black",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 162,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 17,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 43,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 46,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 54,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[50, 60)",
+   "race": "Black",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 3,
+  "reconstructed_count": 3,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 180,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 22,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 37,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 45,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 73,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[30, 40)",
+   "race": "White",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 199,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 13,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 64,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 47,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 74,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[30, 40)",
+   "race": "Black",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 144,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 14,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 23,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 47,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 59,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "NHANES",
+  "k": 10,
+  "group": {
+   "age_band": "[40, 50)",
+   "race": "White",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "<9th",
+   "outcome": "NoDiabetes"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 189,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "9-11th",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 20,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "CollegeGrad",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 60,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "HS/GED",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 39,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "SomeCollege",
+     "outcome": "NoDiabetes"
+    },
+    "returns": 69,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "Hospital",
+  "k": 10,
+  "group": {
+   "age_band": "[60-70)",
+   "race": "Caucasian",
+   "gender": "Male"
+  },
+  "protected_cell": {
+   "partition": "Missing",
+   "outcome": "No readmission"
+  },
+  "true_count": 2,
+  "reconstructed_count": 2,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "No readmission"
+    },
+    "returns": 3848,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Circulatory",
+     "outcome": "No readmission"
+    },
+    "returns": 1558,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Diabetes",
+     "outcome": "No readmission"
+    },
+    "returns": 179,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Digestive",
+     "outcome": "No readmission"
+    },
+    "returns": 335,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Genitourinary",
+     "outcome": "No readmission"
+    },
+    "returns": 144,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Infectious",
+     "outcome": "No readmission"
+    },
+    "returns": 83,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Injury",
+     "outcome": "No readmission"
+    },
+    "returns": 233,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Mental",
+     "outcome": "No readmission"
+    },
+    "returns": 45,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Musculoskeletal",
+     "outcome": "No readmission"
+    },
+    "returns": 295,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Neoplasms",
+     "outcome": "No readmission"
+    },
+    "returns": 200,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Nervous/Sense",
+     "outcome": "No readmission"
+    },
+    "returns": 41,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Other",
+     "outcome": "No readmission"
+    },
+    "returns": 129,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Respiratory",
+     "outcome": "No readmission"
+    },
+    "returns": 289,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Skin",
+     "outcome": "No readmission"
+    },
+    "returns": 95,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Symptoms",
+     "outcome": "No readmission"
+    },
+    "returns": 220,
+    "coefficient": "-1"
+   }
+  ]
+ },
+ {
+  "dataset": "Hospital",
+  "k": 10,
+  "group": {
+   "age_band": "[80-90)",
+   "race": "Caucasian",
+   "gender": "Female"
+  },
+  "protected_cell": {
+   "partition": "Missing",
+   "outcome": "No readmission"
+  },
+  "true_count": 1,
+  "reconstructed_count": 1,
+  "all_queries_at_least_k": true,
+  "verified": true,
+  "terms": [
+   {
+    "query": {
+     "type": "outcome_total",
+     "outcome": "No readmission"
+    },
+    "returns": 3225,
+    "coefficient": "1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Circulatory",
+     "outcome": "No readmission"
+    },
+    "returns": 987,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Diabetes",
+     "outcome": "No readmission"
+    },
+    "returns": 119,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Digestive",
+     "outcome": "No readmission"
+    },
+    "returns": 277,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Genitourinary",
+     "outcome": "No readmission"
+    },
+    "returns": 199,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Infectious",
+     "outcome": "No readmission"
+    },
+    "returns": 109,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Injury",
+     "outcome": "No readmission"
+    },
+    "returns": 332,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Mental",
+     "outcome": "No readmission"
+    },
+    "returns": 37,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Musculoskeletal",
+     "outcome": "No readmission"
+    },
+    "returns": 144,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Neoplasms",
+     "outcome": "No readmission"
+    },
+    "returns": 143,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Nervous/Sense",
+     "outcome": "No readmission"
+    },
+    "returns": 60,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Other",
+     "outcome": "No readmission"
+    },
+    "returns": 171,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Respiratory",
+     "outcome": "No readmission"
+    },
+    "returns": 385,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Skin",
+     "outcome": "No readmission"
+    },
+    "returns": 61,
+    "coefficient": "-1"
+   },
+   {
+    "query": {
+     "type": "cell",
+     "partition": "Symptoms",
+     "outcome": "No readmission"
+    },
+    "returns": 200,
+    "coefficient": "-1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,4 @@
+dataset,sessions,drill_fp_sym,drill_fp_rank,roll_fp_sym,roll_fp_rank
+Hospital,200,0.645,0.0,1.0,0.0
+Adult,200,1.0,0.0,1.0,0.0
+NHANES,200,1.0,0.0,1.0,0.0

@@ -1,0 +1,13 @@
+# third-party data and everything derived from it
+data/raw/
+data/processed/
+data/training/
+data/audit/
+reports/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+results/scale_*.db

@@ -1,0 +1,15 @@
+{
+  "patients": 71518,
+  "encounters": 101766,
+  "multi_encounter_patients": 16773,
+  "conflicting_diagnosis": 12206,
+  "changed_age_band": 1574,
+  "conflicting_race": 249,
+  "multiple_outcome_categories": 14007,
+  "encounters_dropped": 30248,
+  "encounter_groups": 1237,
+  "patient_groups": 1201,
+  "encounter_groups_below_k": 624,
+  "patient_groups_below_k": 657,
+  "patients_at_risk": 2337
+}

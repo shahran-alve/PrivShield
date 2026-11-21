@@ -1,0 +1,4 @@
+dataset,k,at_risk,linear_bypass,ip_pinned_patientk,ip_pinned_not_in_span,homog_forced_patientk,ip_pinned_rank_auditor,homog_forced_rank_auditor,ip_pinned_auditorB,homog_forced_auditorB,released_total,refused_A,refused_B,groups_forced_patientk,groups_forced_one_outcome_in_data
+Hospital,10,2337,3,3,0,4,0,2,0,2,5220,306,316,3,3
+NHANES,10,776,85,99,14,158,6,133,8,135,912,45,47,37,37
+Adult,10,1247,0,0,0,232,0,153,0,153,2692,413,684,69,69
